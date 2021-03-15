@@ -217,23 +217,6 @@ console.log(podeSerNulo)
 // podeSerNulo = 'abc'
 console.log(podeSerNulo)
 
-// Desafio - Transformar código JS em TS
-let contaBancaria = {
-    saldo: 3456,
-    depositar(valor) {
-        this.saldo += valor
-    }
-}
-
-let correntista = {
-    nome: 'Ana Silva',
-    contaBancaria: contaBancaria,
-    contatos: ['34567890', '98765432']
-}
-
-correntista.contaBancaria.depositar(3000)
-console.log(correntista)
-
 // Resposta Desafio - Transformar código JS em TS
 type ContaBancaria = {
     saldo: number,
@@ -252,6 +235,3 @@ type Correntista = {
     contaBancariaCliente: ContaBancaria,
     contatos: ['34567899', '98765432']
 }
-
-correntista.contaBancaria.depositar(3000)
-console.log(correntista)

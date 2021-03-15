@@ -1,4 +1,3 @@
-"use strict";
 // string
 var nome = 'João';
 console.log(nome);
@@ -84,7 +83,7 @@ console.log(usuario);
 // }
 usuario = {
     idade: 31,
-    nome: 'Maria',
+    nome: 'Maria'
 };
 console.log(usuario);
 var funcionario = {
@@ -161,25 +160,9 @@ var podeSerNulo = null;
 console.log(podeSerNulo);
 // podeSerNulo = 'abc'
 console.log(podeSerNulo);
-// Desafio - Transformar código JS em TS
-var contaBancaria = {
-    saldo: 3456,
-    depositar: function (valor) {
-        this.saldo += valor;
-    }
-};
-var correntista = {
-    nome: 'Ana Silva',
-    contaBancaria: contaBancaria,
-    contatos: ['34567890', '98765432']
-};
-correntista.contaBancaria.depositar(3000);
-console.log(correntista);
 var contaBancariaCliente = {
     saldo: 3456,
     depositar: function (valor) {
         this.saldo += valor;
     }
 };
-correntista.contaBancaria.depositar(3000);
-console.log(correntista);
