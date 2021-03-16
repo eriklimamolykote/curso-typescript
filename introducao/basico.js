@@ -1,2 +1,3 @@
-var a = 'Teste TS (WEB)!';
+const a = 'Teste TS (WEB)!';
 console.log(a);
+//# sourceMappingURL=basico.js.map
