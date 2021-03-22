@@ -30,7 +30,6 @@ endereco = ["Rua Importante", 1260, "Bloco C"];
 console.log(endereco);
 // enums
 var Cor;
-// enums
 (function (Cor) {
     Cor[Cor["Cinza"] = 0] = "Cinza";
     Cor[Cor["Verde"] = 100] = "Verde";
