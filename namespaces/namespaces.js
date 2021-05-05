@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 ///<reference path="geometriaCirc.ts"/>
 ///<reference path="geometriaRect.ts"/>
 // const PI = 2.99

@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 var Geometria;
 (function (Geometria) {
     let Area;

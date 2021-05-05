@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 function saudarComOla(pessoa) {
     console.log('Olá ' + pessoa.nome);
 }

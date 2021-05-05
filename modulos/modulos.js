@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };

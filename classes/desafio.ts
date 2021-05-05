@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 // Exercício 1 - Classe
 class Moto {
     public velocidade: number = 0

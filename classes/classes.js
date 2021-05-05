@@ -1,3 +1,5 @@
+// Original author: Leonardo Moura Leitão (with adaptations)
+// Contact: https://www.udemy.com/user/leonardomouraleitao/
 class Data {
     constructor(dia = 20, mes = 3, ano = 1984) {
         this.dia = dia;
